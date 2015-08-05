@@ -1,4 +1,5 @@
 class Coffee
+
   def initialize(type)
   	@full = true
   	@sips = 3
@@ -15,4 +16,5 @@ class Coffee
   def empty?
   	@sips.zero?
   end
+  
 end

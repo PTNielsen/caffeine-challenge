@@ -1,10 +1,9 @@
 class Human
+
+  attr_reader :alertness
+
   def initialize(name)
   	@alertness = 0
-  end
-
-  def alertness
-  	@alertness
   end
 
   def buy coffee
@@ -27,4 +26,5 @@ class Human
   def needs_coffee?
   	not has_coffee?
   end
+
 end

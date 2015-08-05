@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.2.2
+
+script: caffeine_test.rb
+script: coffee.rb
+script: human.rb
